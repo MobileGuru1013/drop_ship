@@ -1,0 +1,22 @@
+/*
+ *= require spree/backend
+*/
+
+.center {
+  text-align: center;
+}
+
+.state.delivered:before,
+.state.confirmed:before {
+  background-color: #ff9300;
+}
+
+.supplier-banks ol li {
+  margin-left: 20px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+a .without-textdecor{
+  text-decoration: none;
+}

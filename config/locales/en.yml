@@ -1,0 +1,89 @@
+en:
+  activerecord:
+    attributes:
+      spree/supplier:
+        commission_flat_rate: Commission Flat Rate
+        commission_percentage: Commission Percentage
+        name: Name
+        tax_id: TAX ID
+        url: URL
+    errors:
+      models:
+        spree/supplier:
+          attributes:
+            url:
+              invalid: is invalid. Please be sure to include include 'http://'
+              not_responding: 'is invalid, not responding or redirecting to another location'
+  spree:
+    admin:
+      drop_ship_settings:
+        update:
+          success: Drop ship settings successfully updated.
+      orders:
+        edit:
+          approve_drop_ship_orders: Approve Drop Ship Orders
+          resend_drop_ship_orders: Resend Drop Ship Orders
+          drop_ship_order_approval_confirmation: This will send an email notification to each supplier. Continue?
+        show:
+          approve_drop_ship_orders: Approve Drop Ship Orders
+          resend_drop_ship_orders: Resend Drop Ship Orders
+          drop_ship_order_approval_confirmation: This will send an email notification to each supplier. Continue?
+    back_to_orders_list: Back To Orders List
+    back_to_suppliers: Back To Suppliers
+    business: Business
+    cancel: Cancel
+    company_info: Company Info
+    confirm_order: Confirm Order
+    contact_address: Contact Address
+    drop_ship: Drop Ship
+    drop_ship_order_mailer:
+      supplier_order:
+        hello: "Hello %{name},"
+        subject: "%{name} Drop Shipment #%{number}"
+        thank_you_again: "Thank you again for your business, <b>%{name}</b>"
+    drop_ship_order_number: "Drop Ship Order #%{number}"
+    drop_ship_orders: Drop Ship Orders
+    drop_ship_settings: Drop Ship Settings
+    editing_supplier: Editing Supplier
+    individual: Individual
+    listing_suppliers: Listing Suppliers
+    manage: Manage
+    must_be_logged_in: 'Must Be Logged In'
+    name: Name
+    new_supplier: New Supplier
+    or: or
+    order_state:
+      active: Active
+      completed: Completed
+      confirmed: Confirmed
+      delivered: Delivered
+    resend_order_to_supplier: Resend Order To Supplier
+    save: Save
+    search: Search
+    send_order_to_supplier: Send Order To Supplier
+    shared:
+      unauthorized:
+        explained: You are not authorized to access this page.
+        unauthorized: Unauthorized
+    show_only_incomplete_orders: Show Only Incomplete Orders
+    signup: Sign Up
+    signup_to_become_a_supplier: 'Sign Up To Become A Supplier'
+    supplier: Supplier
+    supplier_details: Supplier Details
+    supplier_info: Supplier Info
+    supplier_information: Supplier Information
+    supplier_mailer:
+      welcome:
+        hello: "Hello %{name},"
+        logging_into_your_account: logging into your account.
+        manage_your_account: You may now manage your profile and inventory by
+        subject: 'Thank you for signing up.  Please verify your information.'
+        thank_you_again: "Thank you again for your business, <b>%{name}</b>"
+        thank_you_for_signing_up: Thank you for signing up to be a drop ship supplier.
+    supplier_registration:
+      already_signed_up: "You've already signed up to become a supplier."
+      create:
+        invalid_password: Invalid password please sign in or sign up.
+        success: Thank you for signing up!
+    supplier_signup: Supplier Sign Up
+    suppliers: Suppliers
